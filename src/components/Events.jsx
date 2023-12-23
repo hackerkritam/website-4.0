@@ -55,9 +55,15 @@ const Events = () => {
           className={`${montserrat.className} grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 lg:py-4 px-2 gap-2 border-[#1f1b4e] rounded-md text-white `}
         >
           {featuredEvents.map((item, index) => (
-            <div className="w-full flex justify-center " key={index}>
+            <motion.div
+              initial={{ y: 60, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.6 }}
+              className="w-full flex justify-center "
+              key={index}
+            >
               <EventCard item={item} key={index} />
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

@@ -53,7 +53,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className={`bg-[#5ae65a] ${poppins.className} text-[#1f1b4e] xl:px-6 px-3 xl:py-3 py-2 rounded-md xl:text-lg sm:text-base text-sm duration-300 font-normal w-fit  hover:bg-[#1f1b4e] hover:text-[#5ae65a] tracking-wider`}
+            className={`bg-[#5ae65a] ${poppins.className} text-[#1f1b4e] xl:px-6 px-3 xl:py-3 py-2 rounded-md xl:text-lg sm:text-base text-sm transition-opacity duration-300 font-normal w-fit  hover:bg-[#1f1b4e] hover:text-[#5ae65a] tracking-wider`}
           >
             Learn More
           </motion.div>

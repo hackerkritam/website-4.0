@@ -1,28 +1,28 @@
-import Image from "next/image"
-import React, { useState } from "react"
-import useScrollBlock from "../../../customHooks/useScrollBlock"
-import { motion } from "framer-motion"
-import Link from "next/link"
+import Image from 'next/image';
+import React, { useState } from 'react';
+import useScrollBlock from '../../../customHooks/useScrollBlock';
+import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 const EventCard = ({ item }) => {
-  const [viewMore, setViewMore] = useState(false)
-  const [blockScroll, allowScroll] = useScrollBlock(false)
+  const [viewMore, setViewMore] = useState(false);
+  const [blockScroll, allowScroll] = useScrollBlock(false);
 
   const handleViewMore = () => {
-    setViewMore(true)
-    blockScroll()
-  }
+    setViewMore(true);
+    blockScroll();
+  };
   const handleViewLess = () => {
-    setViewMore(false)
-    allowScroll()
-  }
+    setViewMore(false);
+    allowScroll();
+  };
 
   const handleRegister = () => {
     //Register Logic Here...
-  }
+  };
 
   return (
-    <div className="max-w-[18rem] h-[22rem] border-[#1f1b4e] border-[3px] px-6 pt-3 pb-1 rounded-lg flex flex-col items-center ">
+    <div className="w-[18rem] h-[22rem] border-[#1f1b4e] border-[3px] px-6 pt-3 pb-1 rounded-lg flex flex-col items-center ">
       <motion.div className=" w-full h-[12rem]  mb-2 ">
         <Image
           width={10}
@@ -69,7 +69,7 @@ const EventCard = ({ item }) => {
               <Image
                 width={500}
                 height={500}
-                alt={item ? item.name : "Event"}
+                alt={item ? item.name : 'Event'}
                 src={item.image}
                 className="w-full h-full object-cover rounded-full "
                 unoptimized
@@ -88,14 +88,16 @@ const EventCard = ({ item }) => {
               <div>
                 <button
                   className="py-[5px] px-6 border-[#1f1b4e] border-2  text-md rounded-lg font-medium text-[#1f1b4e] hover:bg-[#1f1b4e] hover:text-[#f1f2f7] duration-300"
-                  onClick={handleRegister}>
+                  onClick={handleRegister}
+                >
                   Register
                 </button>
               </div>
               <div>
                 <button
                   className="py-[5px] px-6 border-[#1f1b4e] border-2  text-md rounded-lg font-medium text-[#1f1b4e] hover:bg-[#1f1b4e] hover:text-[#f1f2f7] duration-300"
-                  onClick={handleViewLess}>
+                  onClick={handleViewLess}
+                >
                   View Less
                 </button>
               </div>
@@ -104,7 +106,7 @@ const EventCard = ({ item }) => {
         </div>
       )}
     </div>
-  )
-}
+  );
+};
 
-export default EventCard
+export default EventCard;
