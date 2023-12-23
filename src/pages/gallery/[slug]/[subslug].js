@@ -233,7 +233,14 @@ const GallerysubslugSlug = ({ imageNames }) => {
   const slug = router.query.slug;
   const subslug = router.query.subslug;
 
-  imageNames = imageNames.filter((str) => !str.includes('thumbnail'));
+  // imageNames = imageNames.filter((str) => !str.includes('thumbnail'));
+  
+  // Ensure imageNames is an array and filter if defined
+  if (imageNames) {
+    imageNames = imageNames.filter((str) => !str.includes('thumbnail'));
+  } else {
+    imageNames = []; // Initialize as an empty array if undefined
+  }
 
   const variants = {
     hidden: { opacity: 0, y: 40 },
@@ -457,14 +464,20 @@ export async function getStaticPaths() {
   const galleryFolders = fs.readdirSync(galleryBasePath);
 
   const paths = galleryFolders.reduce((acc, gallery) => {
-    const subFolders = fs.readdirSync(path.join(galleryBasePath, gallery));
-    const subPaths = subFolders.map((subFolder) => ({
-      params: {
-        slug: gallery,
-        subslug: subFolder,
-      },
-    }));
-    return [...acc, ...subPaths];
+    const subFolderPath = path.join(galleryBasePath, gallery);
+
+    // Ensure the path is a directory before reading its contents
+    if (fs.statSync(subFolderPath).isDirectory()) {
+      const subFolders = fs.readdirSync(subFolderPath);
+      const subPaths = subFolders.map((subFolder) => ({
+        params: {
+          slug: gallery,
+          subslug: subFolder,
+        },
+      }));
+      return [...acc, ...subPaths];
+    }
+    return acc; // If it's not a directory, just return the accumulator
   }, []);
 
   return {
@@ -483,11 +496,18 @@ export async function getStaticProps({ params }) {
     params.subslug
   );
 
-  const imageNames = fs.readdirSync(publicPath);
+  // Ensure the path is a directory before reading its contents
+  if (fs.statSync(publicPath).isDirectory()) {
+    const imageNames = fs.readdirSync(publicPath);
+    return {
+      props: {
+        imageNames,
+      },
+    };
+  }
 
+  // If it's not a directory, return an empty props object or handle it as appropriate for your use case
   return {
-    props: {
-      imageNames,
-    },
+    props: {},
   };
 }
