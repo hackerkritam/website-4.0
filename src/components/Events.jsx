@@ -59,6 +59,7 @@ const Events = () => {
               initial={{ y: 60, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.6 }}
+              viewport={{ once: true }}
               className="w-full flex justify-center "
               key={index}
             >
