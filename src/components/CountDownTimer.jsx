@@ -110,12 +110,12 @@ const CountdownTimer = ({ targetDate }) => {
   const renderTimeComponent = (value, label) => (
     <div
       key={label}
-      className="flex flex-col w-[5rem] h-[5rem] bg-white text-black justify-center items-center rounded-xl my-8 "
+      className="flex flex-col md:w-[5rem] md:h-[5rem] sm:w-[3rem] sm:h-[3rem] w-[2.4rem] h-[2.4rem]  bg-white text-black justify-center items-center rounded-xl my-8 "
     >
-      <span className="text-2xl font-bold text-yellow-500 ">
+      <span className="text-sm md:text-2xl font-bold text-yellow-500 ">
         {value < 10 ? `0${value}` : value}
       </span>
-      <span>{label}</span>
+      <span className="md:text-base text-[8px] sm:text-[10px]">{label}</span>
     </div>
   );
 
@@ -132,7 +132,9 @@ const CountdownTimer = ({ targetDate }) => {
       {timeLeft !== null ? (
         timerComponents
       ) : (
-        <span className=" ">Time's up!</span>
+        <span className=" text-yellow-500 font-bold text-4xl my-8">
+          Time's up!
+        </span>
       )}
     </div>
   );

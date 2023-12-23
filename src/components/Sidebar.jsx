@@ -1,40 +1,40 @@
-import Image from "next/image"
-import Link from "next/link"
-import React, { useEffect, useState } from "react"
-import { AnimatePresence, motion } from "framer-motion"
+import Image from 'next/image';
+import Link from 'next/link';
+import React, { useEffect, useState } from 'react';
+import { AnimatePresence, motion } from 'framer-motion';
 // import { useOutsideClick } from "@/customHooks/useOutsideClick"
-import { useRouter } from "next/router"
-import { Poppins, Montserrat } from "next/font/google"
+import { useRouter } from 'next/router';
+import { Poppins, Montserrat } from 'next/font/google';
 // import { formLink } from '@/data/data';
 
 const poppins = Poppins({
-  weight: ["400", "200", "100", "300", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
-})
+  weight: ['400', '200', '100', '300', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+});
 const montserrat = Montserrat({
-  weight: ["400", "200", "100", "300", "500", "600", "700", "800", "900"],
-  subsets: ["latin"],
-})
+  weight: ['400', '200', '100', '300', '500', '600', '700', '800', '900'],
+  subsets: ['latin'],
+});
 
 const Sidebar = ({ openNav, setOpenNav }) => {
-  const [openClass, setOpenClass] = useState(false)
+  const [openClass, setOpenClass] = useState(false);
 
   const handleClickOutside = () => {
-    setOpenClass(false)
-  }
+    setOpenClass(false);
+  };
   //   const ref = useOutsideClick(handleClickOutside)
 
-  const router = useRouter()
+  const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url) => {
-      setOpenNav(false)
-    }
+      setOpenNav(false);
+    };
 
-    router.events.on("routeChangeStart", handleRouteChange)
+    router.events.on('routeChangeStart', handleRouteChange);
     return () => {
-      router.events.off("routeChangeStart", handleRouteChange)
-    }
-  }, [])
+      router.events.off('routeChangeStart', handleRouteChange);
+    };
+  }, []);
 
   return (
     <motion.div
@@ -42,12 +42,14 @@ const Sidebar = ({ openNav, setOpenNav }) => {
       animate={{ opacity: 1, scale: 1 }}
       exit={{ opacity: 0, scale: 0 }}
       transition={{ duration: 0.25 }}
-      className={`absolute flex  ${poppins.className} items-center justify-center w-[100vw] h-[100vh] bg-[#1f1b4e] z-[100]  `}>
+      className={`absolute top-0 flex  ${poppins.className} items-center justify-center w-[100vw] h-[100vh] bg-[#1f1b4e] z-[100]  `}
+    >
       <div
         className="absolute left-10 top-10 cursor-pointer"
         onClick={() => {
-          setOpenNav(false)
-        }}>
+          setOpenNav(false);
+        }}
+      >
         <Image
           alt="closebtn"
           width={10}
@@ -56,7 +58,7 @@ const Sidebar = ({ openNav, setOpenNav }) => {
           className="w-[1.5rem] md:w-[4rem] object-contain "
         />
       </div>
-      <div className="relative flex flex-col text-white">
+      <div className="relative flex flex-col text-white ">
         <div className="flex justify-center items-center mb-20">
           <Image
             alt="Delta"
@@ -71,17 +73,20 @@ const Sidebar = ({ openNav, setOpenNav }) => {
         <div className="relative flex flex-col items-center text-base justify-center ">
           <Link
             href="/"
-            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2">
+            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2"
+          >
             Home
           </Link>
           <Link
             href="/about"
-            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2">
+            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2"
+          >
             About
           </Link>
           <Link
             href="/events"
-            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2">
+            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2"
+          >
             Events
           </Link>
           {/* <Link
@@ -92,23 +97,26 @@ const Sidebar = ({ openNav, setOpenNav }) => {
           </Link> */}
           <Link
             href="/members"
-            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2">
+            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2"
+          >
             Members
           </Link>
           <Link
             href="/gallery"
-            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2">
+            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2"
+          >
             Gallery
           </Link>
           <Link
             href="/contact"
-            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2 mb-3">
+            className="w-[15rem] flex justify-center items-center h-[3rem] border-white py-2 mb-3"
+          >
             Contact
           </Link>
         </div>
       </div>
     </motion.div>
-  )
-}
+  );
+};
 
-export default Sidebar
+export default Sidebar;
