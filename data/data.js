@@ -108,7 +108,7 @@ export const members = [
   {
     id: 10,
     name: "Rohan Kumar Shah",
-    src: "/images/Delta_4th_comittee_images/Rohan Kumar Shah.jpg",
+    src: "/images/Delta_4th_comittee_images/Rohan Kumar Shah 1.jpg",
     title: "Technical Vice Coordinator",
   },
   {
