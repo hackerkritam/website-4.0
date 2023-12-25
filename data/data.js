@@ -96,7 +96,7 @@ export const members = [
   {
     id: 8,
     name: "Utsarga Bikram Shah",
-    src: "/images/Delta_4th_comittee_images/Utsarga Bikram Shah .JPG",
+    src: "/images/Delta_4th_comittee_images/Utsarga Bikram Shah  1.JPG",
     title: "Correspondent",
   },
   {
