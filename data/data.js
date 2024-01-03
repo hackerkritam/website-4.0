@@ -167,8 +167,8 @@ export const members = [
   },
   {
     id: 20,
-    name: "Abhishek Chaudhary",
-    src: "/images/Delta_4th_comittee_images/Abishek Chaudhary.jpg",
+    name: "Riya Nepali",
+    src: "/images/Delta_4th_comittee_images/Riya Nepali.jpg",
     title: "Business Vice Coordinator",
   },
   {
