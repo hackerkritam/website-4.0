@@ -248,10 +248,7 @@ export const societies = [
     id: 7,
     src: "/images/Societies logo/SOMES 1.jpg",
   },
-  {
-    id: 8,
-    src: "/images/Societies logo/Robotics Club.png",
-  },
+
 ]
 export const prevsponsors = [
   {
