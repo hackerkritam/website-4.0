@@ -44,7 +44,7 @@ export const testimonials = [
     {
   id: 7,
   name: "Ashish Shah",
-  src: "/images/Delta_4th_comittee_images/Ashish.jpg",
+  src: "/images/Delta_4th_comittee_images/Ashish.JPG",
   pos: "Business Coordinator",
   desc: "Excited to lead Delta's business initiatives, fostering growth and innovation. Committed to creating opportunities that align with our vision. Join us as we navigate the dynamic landscape of business development together."
   },
