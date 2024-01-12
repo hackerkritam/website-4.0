@@ -348,7 +348,7 @@ export const events = [
     id: 6,
     name: "Robothon",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
-    image: "/images/Events/RoboThon.jpg",
+    image: "/images/Events/RoboThon .jpg",
     formLink:
       "https://shorturl.at/fAF79",
     fbLink:
@@ -360,7 +360,7 @@ export const events = [
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
     image: "/images/Events/Cold Storage.jpg",
     formLink:
-      "http://tinyurl.com/xhackathon",
+      "https://shorturl.at/sBOQ0",
     fbLink:
       "https://www.facebook.com/photo.php?fbid=771817671630590&set=pb.100064070916067.-2207520000&type=3",
   },
