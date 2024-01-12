@@ -296,33 +296,33 @@ export const prevsponsors = [
 export const events = [
   {
     id: 1,
-    name: "Photography Competition",
+    name: "Hackathon",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
-    image: "/images/Events/Photography.jpg",
+    image: "/images/Events/Software Hackathon.jpg",
     formLink:
-      "https://www.facebook.com/photo.php?fbid=745300467615644&set=pb.100064070916067.-2207520000&type=3",
+      "https://shorturl.at/rINSZ",
     fbLink:
-      "https://www.facebook.com/photo.php?fbid=742806884531669&set=pb.100064070916067.-2207520000&type=3",
+      "https://m.facebook.com/story.php?story_fbid=pfbid02yhPEXLc8gNXKuzyGFqkRFqw16vQnL6EZAS7DCCgLh4SMuPKqY3RKfbchh5QzhaACl&id=100064070916067&mibextid=Nif5oz",
   },
   {
     id: 2,
-    name: "Speech Competition",
+    name: "AR Bug Hunt",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
     image: "/images/Events/Speech.jpg",
     formLink:
-      "https://www.facebook.com/delta.ioe/posts/pfbid02u5oqLgsgM9H1gDbapG8uYe7XrDZbXmc4xya8QM3fWXCZwq7Pc9ZbVfLMrRHfCw1Tl",
+      "https://shorturl.at/jowKV",
     fbLink:
-      "https://www.facebook.com/photo.php?fbid=752333320245692&set=pb.100064070916067.-2207520000&type=3",
+      "https://www.facebook.com/photo?fbid=772799284865762&set=pb.100064070916067.-2207520000",
   },
   {
     id: 3,
-    name: "Quiz Competition",
+    name: "Hardware Hackathon",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
-    image: "/images/Events/Quiz.jpg",
+    image: "/images/Events/Hardware Hackathon.jpg",
     formLink:
-      "https://www.facebook.com/delta.ioe/posts/pfbid0292HrH2SJf659ZhpeK1HzB9TH8A25d9ScHjVb4bFB8JCWqZAvaZbCBtV4wASCTCa8l",
+      "http://tinyurl.com/xhackathon",
     fbLink:
-      "https://www.facebook.com/photo.php?fbid=759313619547662&set=pb.100064070916067.-2207520000&type=3",
+      "https://www.facebook.com/photo/?fbid=771818281630529&set=pb.100064070916067.-2207520000",
   },
   {
     id: 4,
@@ -333,6 +333,36 @@ export const events = [
       "https://www.facebook.com/photo.php?fbid=755513583260999&set=pb.100064070916067.-2207520000&type=3",
     fbLink:
       "https://www.facebook.com/photo.php?fbid=755513583260999&set=pb.100064070916067.-2207520000&type=3",
+  },
+  {
+    id: 5,
+    name: "Popsicle Stick Building Competition",
+    desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
+    image: "/images/Events/Popsicle.jpg",
+    formLink:
+      "https://shorturl.at/lrTX2",
+    fbLink:
+      "https://www.facebook.com/photo?fbid=772391184906572&set=pb.100064070916067.-2207520000",
+  },
+  {
+    id: 6,
+    name: "Robothon",
+    desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
+    image: "/images/Events/RoboThon.jpg",
+    formLink:
+      "https://shorturl.at/fAF79",
+    fbLink:
+      "https://www.facebook.com/photo/?fbid=771818528297171&set=pb.100064070916067.-2207520000",
+  },
+  {
+    id: 7,
+    name: "Cold Storage Design",
+    desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
+    image: "/images/Events/Cold Storage.jpg",
+    formLink:
+      "http://tinyurl.com/xhackathon",
+    fbLink:
+      "https://www.facebook.com/photo.php?fbid=771817671630590&set=pb.100064070916067.-2207520000&type=3",
   },
   // {
   //   id: 5,
