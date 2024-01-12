@@ -41,8 +41,15 @@ export const testimonials = [
     pos: "Exhibition Coordinator",
     desc: "Thrilled to curate impactful exhibitions showcasing talent and expertise. Delta's commitment to hands-on learning is evident in our displays. Join us in inspiring and educating through creativity.",
   },
+    {
+  id: 7,
+  name: "Ashish Shah",
+  src: "/images/Delta_4th_comittee_images/Ashish.jpg",
+  pos: "Business Coordinator",
+  desc: "Excited to lead Delta's business initiatives, fostering growth and innovation. Committed to creating opportunities that align with our vision. Join us as we navigate the dynamic landscape of business development together."
+  },
   {
-    id: 7,
+    id: 8,
     name: "Samrat Mahatra",
     src: "/images/Delta_4th_comittee_images/samrat.jpg",
     pos: "Former Coordinator",
