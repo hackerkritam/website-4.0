@@ -24,7 +24,7 @@ const Events = () => {
 
   return (
     <div
-      className={`${montserrat.className} mb-9 w-full flex justify-center pt-8 pb-8 bg-[white] text-[#1f1b4e] `}
+      className={`${montserrat.className} mb-9 w-full flex justify-center pt-8 pb-8 bg-[#f1f2f7] text-[#1f1b4e] `}
     >
       <div className="w-[80%]">
         <motion.div
