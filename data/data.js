@@ -328,7 +328,7 @@ export const events = [
     id: 4,
     name: "Go Kart Racing",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
-    image: "/images/Events/Go-Kart.jpg",
+    image: "/images/Events/gokart racing .jpg",
     formLink:
       "https://www.facebook.com/photo.php?fbid=755513583260999&set=pb.100064070916067.-2207520000&type=3",
     fbLink:
@@ -363,6 +363,16 @@ export const events = [
       "https://shorturl.at/sBOQ0",
     fbLink:
       "https://www.facebook.com/photo.php?fbid=771817671630590&set=pb.100064070916067.-2207520000&type=3",
+  },
+   {
+    id: 8,
+    name: "Thematic Project Demonstration",
+    desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
+    image: "/images/Events/Thematic Project.jpg",
+    formLink:
+      "https://shorturl.at/hpKS7",
+    fbLink:
+      "http://tiny.cc/thematicproject",
   },
   // {
   //   id: 5,
@@ -457,7 +467,7 @@ export const featuredEvents = [
     id: 4,
     name: "Go Kart Racing",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
-    image: "/images/Events/Go-Kart.jpg",
+    image: "/images/Events/gokart racing .jpg",
     formLink:
       "https://www.facebook.com/photo.php?fbid=755513583260999&set=pb.100064070916067.-2207520000&type=3",
     fbLink:
