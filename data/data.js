@@ -308,7 +308,7 @@ export const events = [
     id: 2,
     name: "AR Bug Hunt",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
-    image: "/images/Events/FB_IMG_1705227607576.jpg",
+    image: "/images/Events/ar bug.jpg",
     formLink:
       "https://shorturl.at/jowKV",
     fbLink:
@@ -447,7 +447,7 @@ export const featuredEvents = [
     id: 2,
     name: "AR Bug Hunt",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
-    image: "/images/Events/Speech.jpg",
+    image: "/images/Events/ar bug.jpg",
     formLink:
       "https://shorturl.at/jowKV",
     fbLink:
