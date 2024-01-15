@@ -388,7 +388,7 @@ export const events = [
     name: "Simulation With Circuit",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
     image: "/images/Events/SIMUlation.jpg",
-    formLink: "http://tiny.cc/circuitsimulation",
+    formLink: "https://docs.google.com/.../1FAIpQLSf765ils3v.../viewform...",
     fbLink:"http://tiny.cc/openproject",
   },
   {
@@ -396,7 +396,7 @@ export const events = [
     name: "Solar Powered Irrigation System Design",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
     image: "/images/Events/Solar Iriigation.jpg",
-    formLink: "https://www.facebook.com",
+    formLink: "https://shorturl.at/akvT6",
     fbLink: "http://tiny.cc/solarpower",
   },
 ]
