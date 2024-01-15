@@ -393,11 +393,11 @@ export const events = [
   },
   {
     id: 11,
-    name: "Grading Machine Innovation Challenge",
+    name: "Solar Powered Irrigation System Design",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
-    image: "/images/Delta_4th_comittee_images/Swikar Neupane.jpg",
+    image: "/images/Events/Solar Iriigation.jpg",
     formLink: "https://www.facebook.com",
-    fbLink: "https://www.facebook.com",
+    fbLink: "http://tiny.cc/solarpower",
   },
 ]
 
