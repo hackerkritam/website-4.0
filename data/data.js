@@ -393,7 +393,7 @@ export const events = [
   },
   {
     id: 11,
-    name: "Solar Powered Irrigation System Design",
+    name: "Solar Powered Irrigation Design",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
     image: "/images/Events/Solar Iriigation.jpg",
     formLink: "https://shorturl.at/akvT6",
