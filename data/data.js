@@ -388,7 +388,7 @@ export const events = [
     name: "Simulation With Circuit",
     desc: "Culpa ipsum dolor reprehenderit officia minim mollit excepteur amet laborum ullamco. Voluptate sunt magna et et nostrud esse sint nulla. Ipsum consequat commodo aute esse incididunt occaecat commodo.",
     image: "/images/Events/SIMUlation.jpg",
-    formLink: "https://docs.google.com/.../1FAIpQLSf765ils3v.../viewform...",
+    formLink: "https://docs.google.com/forms/d/e/1FAIpQLSf765ils3vdXamtinTAVqvDan00P6XAMkmbESl8W7rc3zuxdw/viewform",
     fbLink:"http://tiny.cc/openproject",
   },
   {
