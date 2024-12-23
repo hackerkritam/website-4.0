@@ -1,23 +1,23 @@
-import Image from "next/image"
-import React from "react"
-import { Poppins, Montserrat } from "next/font/google"
-import Head from "next/head"
-import { motion } from "framer-motion"
+import Image from "next/image";
+import React from "react";
+import { Poppins, Montserrat } from "next/font/google";
+import Head from "next/head";
+import { motion } from "framer-motion";
 
 const poppins = Poppins({
   weight: ["400", "200", "100", "300", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
-})
+});
 const montserrat = Montserrat({
   weight: ["400", "200", "100", "300", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
-})
+});
 
 const About = () => {
   const variants = {
     hidden: { opacity: 0, y: 40 },
     visible: { opacity: 1, y: 0 },
-  }
+  };
 
   return (
     <>
@@ -28,7 +28,8 @@ const About = () => {
       </Head>
       <section
         className="flex flex-col w-full h-fit text-center justify-around items-center pt-[7rem] pb-7"
-        id="events">
+        id="events"
+      >
         <div className=" text-center">
           <motion.h3
             variants={variants}
@@ -36,12 +37,14 @@ const About = () => {
             whileInView="visible"
             viewport={{ once: true }}
             transition={{ delay: 0.2, duration: 0.4 }}
-            className={`font-extrabold text-[40px] ${poppins.className} text-center text-[black] border-[#1f1b4e] border-b-2 mb-8 mx-auto`}>
-            About <span className="text-[#1f1b4e]">Delta 4.0</span>
+            className={`font-extrabold text-[40px] ${poppins.className} text-center text-[black] border-[#1f1b4e] border-b-2 mb-8 mx-auto`}
+          >
+            About <span className="text-[#1f1b4e]">Delta 5.0</span>
           </motion.h3>
         </div>
         <div
-          className={`xl:w-[70%] lg:w-[80%] w-[90%] md:p-6 p-1 text-xl ${poppins.className} text-left rounded-lg h-max `}>
+          className={`xl:w-[70%] lg:w-[80%] w-[90%] md:p-6 p-1 text-xl ${poppins.className} text-left rounded-lg h-max `}
+        >
           <div className="flex xl:flex-row flex-col-reverse gap-4 min-h-[24rem] xl:gap-7">
             <div className="flex flex-col items-center xl:text-lg text-sm md:text-base text-justify xl:w-[70%] justify-between my-auto">
               <div>
@@ -51,8 +54,9 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.4 }}
-                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start mt-4 ">
-                  Welcome to Delta 4.0!
+                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start mt-4 "
+                >
+                  Welcome to Delta 5.0!
                 </motion.div>
                 <motion.p
                   variants={variants}
@@ -60,7 +64,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.4, duration: 0.4 }}
-                  className="text-base md:text-md lg:text-xl ${poppins.className} mb-4 mt-2 ">
+                  className="text-base md:text-md lg:text-xl ${poppins.className} mb-4 mt-2 "
+                >
                   <span>
                     Welcome to Delta, an organization fueled by the passion and
                     ingenuity of engineering students at Purwanchal Campus in
@@ -79,7 +84,8 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
-              className="lg:w-[200%] max-w-[400px] max-h-[400px] mx-auto  w-full items-center my-auto">
+              className="lg:w-[200%] max-w-[400px] max-h-[400px] mx-auto  w-full items-center my-auto"
+            >
               <Image
                 src="/images/About Page/1.jpg"
                 alt="Delta Photo"
@@ -99,7 +105,8 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
-              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto">
+              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto"
+            >
               <Image
                 src="/images/About Page/6.jpg"
                 alt="Delta Photo"
@@ -118,7 +125,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.4 }}
-                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  ">
+                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  "
+                >
                   Our Mission
                 </motion.div>
 
@@ -128,7 +136,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.4, duration: 0.4 }}
-                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2">
+                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2"
+                >
                   At Delta, we go beyond the traditional boundaries of
                   education. Each faculty boasts its own society, driven by
                   students with a shared goal: to provide training beyond the
@@ -152,7 +161,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.4 }}
-                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  ">
+                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  "
+                >
                   Delta: An Umbrella of Excellence
                 </motion.div>
 
@@ -162,7 +172,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.4, duration: 0.4 }}
-                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2">
+                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2"
+                >
                   Delta is more than an organization; it's an umbrella that
                   shelters seven distinct societies, each representing a faculty
                   at Purwanchal Campus. These societies form the backbone of
@@ -177,7 +188,8 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
-              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto">
+              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto"
+            >
               <Image
                 src="/images/About Page/2.jpg"
                 alt="Delta Photo"
@@ -197,7 +209,8 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
-              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto">
+              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto"
+            >
               <Image
                 src="/images/About Page/5.jpg"
                 alt="Delta Photo"
@@ -216,7 +229,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.4 }}
-                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  ">
+                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  "
+                >
                   Annual Transformation
                 </motion.div>
 
@@ -226,7 +240,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.4, duration: 0.4 }}
-                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2">
+                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2"
+                >
                   Every year, Delta undergoes a transformation, marked by a
                   change in nomenclature from Delta3.0 to Delta4.0. This
                   evolution signifies our commitment to progress and innovation.
@@ -248,7 +263,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.4 }}
-                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  ">
+                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  "
+                >
                   Events that Define Excellence
                 </motion.div>
 
@@ -258,7 +274,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.4, duration: 0.4 }}
-                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2">
+                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2"
+                >
                   In our main events, we bring together all seven faculties for
                   competitions that challenge the boundaries of innovation and
                   creativity. From Software Hackathons to Popsicles Bridge
@@ -276,7 +293,8 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
-              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto">
+              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto"
+            >
               <Image
                 src="/images/About Page/4.jpg"
                 alt="Delta Photo"
@@ -295,7 +313,8 @@ const About = () => {
               whileInView="visible"
               viewport={{ once: true }}
               transition={{ duration: 0.4 }}
-              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto">
+              className="xl:w-[100%] max-w-[400px] max-h-[400px] items-center justify-center mx-auto my-auto"
+            >
               <Image
                 src="/images/About Page/3.jpg"
                 alt="Delta Photo"
@@ -314,7 +333,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.3, duration: 0.4 }}
-                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  ">
+                  className="text-left text-[1.2rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start  "
+                >
                   Training for Success
                 </motion.div>
 
@@ -324,7 +344,8 @@ const About = () => {
                   whileInView="visible"
                   viewport={{ once: true }}
                   transition={{ delay: 0.4, duration: 0.4 }}
-                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2">
+                  className="text-base md:text-md lg:text-xl ${poppins.className} mt-2"
+                >
                   Delta is not just an event organizer; it's a training ground.
                   We believe in nurturing talent by inviting experts to provide
                   specialized training to our students. This commitment extends
@@ -343,7 +364,8 @@ const About = () => {
                 whileInView="visible"
                 viewport={{ once: true }}
                 transition={{ delay: 0.3, duration: 0.4 }}
-                className="text-left text-[1.15rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start mt-4 ">
+                className="text-left text-[1.15rem] lg:text-[1.5rem] ${poppins.className} font-extrabold w-[100%] text-start mt-4 "
+              >
                 Get Ready for the Ultimate Technical Adventure!
               </motion.div>
               <motion.p
@@ -352,7 +374,8 @@ const About = () => {
                 whileInView="visible"
                 viewport={{ once: true }}
                 transition={{ delay: 0.3, duration: 0.4 }}
-                className="mt-2 text-base md:text-md lg:text-xl">
+                className="mt-2 text-base md:text-md lg:text-xl"
+              >
                 Join us on our journey of growth, collaboration, and excellence.
                 Delta is more than an organization; it's a community dedicated
                 to shaping the future of engineering.
@@ -362,7 +385,7 @@ const About = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
