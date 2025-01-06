@@ -177,9 +177,9 @@ const Footer = () => {
             href="https://swikarneupane.com.np"
             className="hover:text-[#5ae65a] duration-300"
             target="_blank">
-            Swikar
+            Swikar{" "}
           </Link>
-          and
+          and{" "}
           <Link
             href="https://prashntapandey.com.np"
             className="hover:text-[#5ae65a] duration-300"
