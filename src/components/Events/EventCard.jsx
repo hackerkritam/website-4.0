@@ -46,6 +46,7 @@ const EventCard = ({ item }) => {
             <button
               className="py-[2px] font-medium px-4 border-2 border-[#1f1b4e] text-[#1f1b4e] hover:bg-[#1f1b4e]  hover:text-[white] text-sm rounded duration-300"
               // onClick={handleRegister}
+              disabled
             >
               Register
             </button>

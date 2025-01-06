@@ -20,7 +20,7 @@ const Footer = () => {
         className={`text-white flex gap-7 py-7 xl:flex-row flex-col items-center ${montserrat.className}`}>
         <div className="my-auto text-center xl:pb-0 pb-12">
           <Image
-            src="/images/Delta 4.0 profile logo white.png"
+            src="/images/delta_5.0_profile_logo_white.png"
             alt="Delta"
             height={100}
             width={100}
@@ -170,7 +170,7 @@ const Footer = () => {
             href="https://www.ghimiresuzan.com.np/"
             className="hover:text-[#5ae65a] duration-300"
             target="_blank">
-            Sujan
+            Sujan 
           </Link>{" "}
           and{" "}
           <Link

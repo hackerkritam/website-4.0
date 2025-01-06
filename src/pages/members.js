@@ -43,8 +43,8 @@ const Team = () => {
           transition={{ delay: 0.2, duration: 0.8 }}
           viewport={{ once: true }}>
           <Image
-            src="/images/Delta_4th_comittee_images\Kalyan Baskota(1).jpg"
-            alt="Kalyan Baskota"
+            src="/images/Delta_5th_comittee_images/bibek_neupane.jpg"
+            alt="Bibek Neupane"
             width={10}
             height={10}
             className="bg-black rounded-lg object-cover object-top w-full border-2 h-[30rem] md:w-[30rem] md:h-[30rem] "
@@ -59,8 +59,8 @@ const Team = () => {
           transition={{ delay: 0.3, duration: 0.8 }}
           viewport={{ once: true }}
           className={`w-full flex flex-col items-center bg-white rounded-xl shadow-xl px-4 py-1 mt-2 font-[Montserrat] ${montserrat.className}`}>
-          <h3 className="text-xl font-bold text-center">Kalyan Baskota</h3>
-          <p>President</p>
+          <h3 className="text-xl font-bold text-center">Bibek Neupane</h3>
+          <p>Coordinator</p>
         </motion.div>
       </div>
 

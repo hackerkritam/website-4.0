@@ -31,7 +31,7 @@ const OurEvents = () => {
         <h3
           className={`mt-[4.5rem] font-extrabold text-black border-b-2 mb-8 mx-auto text-[40px] border-[#1f1b4e] ${poppins.className} `}
         >
-          Our <span className="text-[#1f1b4e]">Events</span>
+          Past <span className="text-[#1f1b4e]">Events</span>
         </h3>
       </div>
       <div
