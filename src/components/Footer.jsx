@@ -172,12 +172,19 @@ const Footer = () => {
             target="_blank">
             Sujan 
           </Link>{" "}
-          and{" "}
+          ,Kritam{" "}
           <Link
             href="https://swikarneupane.com.np"
             className="hover:text-[#5ae65a] duration-300"
             target="_blank">
             Swikar
+          </Link>
+          and
+          <Link
+            href="https://prashntapandey.com.np"
+            className="hover:text-[#5ae65a] duration-300"
+            target="_blank">
+            Prashnta
           </Link>
         </p>
       </div>
