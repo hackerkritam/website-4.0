@@ -74,10 +74,10 @@ const Navbar = () => {
           >
             <p className="uppercase xl:text-2xl text-lg my-auto text-white flex flex-col items-center">
               <Image
-                src="/images/Delta 4.0 profile logo white.png"
+                src="/images/delta_5.0_profile_logo_white.png"
                 alt="Delta"
-                width={10}
-                height={10}
+                width={20}
+                height={20}
                 className="cursor-pointer w-[2.5rem] md:w-[3.5rem] lg:w-[3.5rem] object-contain "
                 unoptimized
               />

@@ -44,7 +44,7 @@ const Info = () => {
               transition={{ delay: 0.4, duration: 0.4 }}
               className="font-bold text-[#5ae65a] text-3xl sm:text-3xl md:text-6xl  uppercase tracking-wide"
             >
-              Green Technology
+               Technology For Agriculture and Innovation 
             </motion.span>
           </div>
 
@@ -67,16 +67,18 @@ const Info = () => {
               transition={{ delay: 0.8, duration: 0.4 }}
               className="flex flex-col text-2xl gap-4 "
             >
-              <span>1. Sustainable Structure</span>
-              <span>2. Renewable Energy Integration</span>
-              <span>3. Waste-to-Energy</span>
-              <span>4. Energy Efficient Design</span>
+              <span>1. AI AND AUTOMATION </span>
+              <span>2. TECHNOLOGY INNOVAITON</span>
+              <span>3. DIGITAL ECONOMY</span>
+              <span>4. ENGINNERING FOR SMART CITIES</span>
+              <span>4. ENGINNERING GLOBAL SOLUTIONS</span>
+              
             </motion.div>
           </div>
 
           <Link
             className="px-7 py-[12px] bg-transparent text-[#5ae65a] border-2 border-[#5ae65a] mt-3 hover:bg-[#5ae65a] hover:text-[#1f1b4e] duration-300 font-medium w-max"
-            href="/theme/ThemeBookDELTA.pdf"
+            href="/theme/Theme.pdf"
             target="_blank"
           >
             <div>Theme Book</div>
@@ -93,10 +95,10 @@ const Info = () => {
           className="flex w-full md:w-[80%] lg:w-[40%] items-center justify-center  rounded-md"
         >
           <Image
-            src="/images/theme.png"
+            src="/images/theme.jpg"
             alt="Delta"
-            height={30}
-            width={30}
+            height={80}
+            width={180}
             className="w-full rounded-lg  "
             unoptimized
             priority
